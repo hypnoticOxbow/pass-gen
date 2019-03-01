@@ -3,6 +3,7 @@ import random
 
 
 
+
 def load_words():
     with open("./words_dictionary.json", "r") as english_dictionary:
         valid_words = json.load(english_dictionary)
