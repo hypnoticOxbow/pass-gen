@@ -12,6 +12,7 @@ def load_words():
     return valid_words
 
 
+
 transition = {
     "a": "@4",
     "b": "8",
